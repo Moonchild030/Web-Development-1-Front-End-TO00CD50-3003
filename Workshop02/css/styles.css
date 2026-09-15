@@ -1,0 +1,247 @@
+/* =================================
+   CSS Styles for Workshop 01
+   ================================= */
+
+/* TODO Task 2: Add your general styles here */
+
+/* Reset and Base Styles */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+
+  font-family: "Risque", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fbf9f5;
+  color: #5a524c;
+  line-height: 1.6;
+  min-height: 200vh;
+}
+ /* Add body styles:  font-family, background-color, color, etc. */
+
+/* TODO Task 2: Style your headings */
+h1 {
+    font-size: 3.5rem; /* Set the desired font size */
+    text-align: center; /* Center the heading */
+    color: rgb(52,206,90); /* Set the desired color */
+    text-shadow: 2px 2px 0px #f8bbd0; /* Add a subtle text shadow */
+}
+
+h2 {
+    font-size: 2rem; /* Set the desired font size */
+    text-align: center; /* Center the heading */
+    color: rgb(52,206,90); /* Set the desired color */
+    text-shadow: 2px 2px 0px #f8bbd0; /* Add a subtle text shadow */
+}
+
+/* TODO Task 2: Style your paragraphs */
+p { font-size: 1.1rem; /* Set the desired font size */
+    text-align: center; /* Set the desired text alignment */
+    color: #6b625b; /* Set the desired color */
+    margin: 0 auto 20px auto; /* Center the paragraph */
+}
+
+/* TODO Task 2: Style your images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.Strawberry {
+    max-width: 300px; 
+    max-height: 300px;  
+    display: block;
+    float: left; 
+    padding: 5px;
+    top:-50em;
+    position: relative;
+    left: -10em;
+    
+}
+img.profile-image { max-width: 250px; 
+    max-height: 250px; 
+    transform: rotate(-90deg); /* Straighten out or adjust to taste */ 
+    margin: 30px; 
+    border-radius: 50%; 
+    display: block;
+    float: right; 
+    border: 5px dashed #f48fb1; /* Cute dashed pink border frame */
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    position: relative;
+    top: -40em;
+}
+
+/* TODO Task 3: Navigation Styles */
+nav {
+display: flex; /* Use flexbox for layout */
+justify-content: center; /* Center the navigation items */
+background-color: #fce4ec; /* Set background color */
+font-size: 1.2rem; /* Set font size */
+box-shadow: 0 2px 5px rgba(0,0,0,0.3); /* Add subtle shadow */
+
+}
+
+nav ul {
+list-style-type: none; /* Remove bullets and style the list */
+display: flex; /* Use flexbox for layout */
+padding: 5px; /* Remove default padding */
+}
+
+nav li {
+margin: 0 5px; /* Align the list items horizontally */
+
+}
+
+nav a {
+   color: rgb(104,200,112);
+   padding: 10px 20px;
+   text-decoration: none;
+   text-align: center;/* Style the links */
+   border-radius: 20px; /* Add rounded corners */
+   transition: all 0.2s ease; /* Smooth transition for hover effect */
+   font-weight: bold; /* Make the text bold */
+   display: inline-block; /* Ensure the link behaves like a block element */
+}
+
+nav a:hover {
+background-color: #f8bbd0; /* Add hover effect */
+color: #ffffff; /* Change text color on hover */
+transform: translateY(-2px); /* Slightly enlarge the link on hover */
+}
+
+/* Main Content Styles */
+main {
+    max-width: 900px; /* Set a maximum width for the main content */
+    margin: 40px auto; /* Center the main content */
+    padding: 0 20px; /* Add padding around the main content */
+}
+
+section {
+    margin-bottom: 50px; /* Add spacing between sections */
+}
+
+/* TODO Task 4: Form Styles */
+form {
+    background: #ffffff; /* Set background color for the form */
+    padding: 30px; /* Add padding inside the form */
+    border-radius: 15px; /* Add rounded corners */
+    border: 2px dashed #f8bbd0; /* Add a subtle border */
+    max-width: 500px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02); /* Add a subtle shadow */
+
+}
+iframe {
+    box-align : center;
+}
+.music {
+    max-width: 350px;
+    background: #ffffff;
+    border: 2px dashed #f8bbd0;
+    border-radius: 20px;
+    padding: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #b06579;
+    font-weight: bold;   
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e2b7b7;
+    border-radius: 10px;
+    background-color: #fbf9f5;
+    font-family: inherit; /* Style form inputs */
+}
+
+button,
+input[type="submit"] {
+    background-color: #f8bbd0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    transition: background 0.2s; /* Style the submit button */
+}
+
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: rgb(52,206,90); /* Add hover effect for button */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #a3968d;
+    font-size: 0.9rem;
+    border-top: 1px solid #eee;
+}
+
+/* TODO Task 5: Media Queries for Responsive Design */
+/* Tablet styles (optional) */
+@media (max-width: 768px) {
+    img.profile-image,img.Strawberry {
+        display: none;
+
+     }/* Add your tablet/mobile styles here */
+    
+}
+
+/* Mobile styles */
+@media (max-width:  480px) {
+    CSS
+}
+
+@media (max-width: 768px) {
+    /* Reset layout for mobile stacking */
+    img.profile-image {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        position: static;
+    }
+
+    img.Strawberry {
+    max-width: 150px; 
+    max-height: 150px;  
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+    position: static; /* Removes the off-screen -50em bug */
+}
+    
+    #music {
+        position: static;
+        min-height: auto;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
