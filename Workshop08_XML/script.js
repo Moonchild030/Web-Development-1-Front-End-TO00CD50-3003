@@ -1,6 +1,6 @@
 // Store your OpenWeatherMap API key.
 
-const apiKey= "8c38bf7147a4a64b62c2ffc4de523789";
+const apiKey= "YOUR_API_KEY_HERE";
 
 
 
