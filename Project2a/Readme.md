@@ -83,8 +83,6 @@ For users who want a quick, clean interface to look up artists, read their biogr
 - **What remained unclear or what would I like to learn more about?**
   - To reduce how much information the API gives to me. 
 
-- **My self-assessed project grade:** `xx/10 points`
-
 ---
 
 ## Sources and acknowledgements
