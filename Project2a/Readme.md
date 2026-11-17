@@ -17,14 +17,16 @@ For users who want a quick, clean interface to look up artists, read their biogr
 
 ### Wireframe / sketch
 ![Wireframe](./path-to-your-wireframe.png)
-*(Add an image of your hand-drawn or digital wireframe showing the header, search controls, and result cards.)*
+<img width="1268" height="1082" alt="image" src="https://github.com/user-attachments/assets/9621a265-e8fd-407d-9614-9e0b2dc8798a" />
+
 
 ---
 
 ## Web links
-- **Published application:** [Add your GitHub Pages URL here]
-- **GitHub repository:** [Add your repository URL here]
-- **Project video presentation:** [Add your video URL here]
+- **Published application:** https://moonchild030.github.io/Web-Development-1-Front-End-TO00CD50-3003/Project2a/Music%20App/
+- **GitHub repository:** https://github.com/Moonchild030/Web-Development-1-Front-End-TO00CD50-3003/tree/main/Project2a
+- **Project video presentation:** https://video.laurea.fi/media/Project+2a%3A+AJAX+Application+Using+a+REST+API/0_3fsu9mo6
+  
 
 ---
 
@@ -49,7 +51,8 @@ For users who want a quick, clean interface to look up artists, read their biogr
 ---
 
 ## Screenshots
-![Application Screenshot](/Music%20App/images/app.png)
+<img width="1892" height="908" alt="Screenshot 2026-11-17 045258" src="https://github.com/user-attachments/assets/f4edd14d-bb0b-4bd5-b24c-070d37590a55" />
+
 
 
 ---
