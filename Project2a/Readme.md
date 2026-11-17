@@ -17,14 +17,16 @@ For users who want a quick, clean interface to look up artists, read their biogr
 
 ### Wireframe / sketch
 ![Wireframe](./path-to-your-wireframe.png)
-*(Add an image of your hand-drawn or digital wireframe showing the header, search controls, and result cards.)*
+<img width="1268" height="1082" alt="image" src="https://github.com/user-attachments/assets/9621a265-e8fd-407d-9614-9e0b2dc8798a" />
+
 
 ---
 
 ## Web links
 - **Published application:** [Add your GitHub Pages URL here]
-- **GitHub repository:** [Add your repository URL here]
-- **Project video presentation:** [Add your video URL here]
+- **GitHub repository:** 
+- **Project video presentation:** https://video.laurea.fi/media/Project+2a%3A+AJAX+Application+Using+a+REST+API/0_3fsu9mo6
+  
 
 ---
 
