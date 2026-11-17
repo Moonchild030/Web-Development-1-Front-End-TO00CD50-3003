@@ -39,7 +39,6 @@ async function apiRequest(method, params) {
     throw new Error(`Last.fm API error: ${data.message}`);
   }
 
-  // uncomment line below to log the api output in case of errors, helpful for debugging
   console.log(`API Request to ${method} successful. Response:`, data);
 
   return data;

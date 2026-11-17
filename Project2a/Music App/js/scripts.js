@@ -277,4 +277,4 @@ function displayTrackInfo(artistName, albumDetails) {
   }
 }
 
-// Clear track info section fields
+
