@@ -49,7 +49,8 @@ For users who want a quick, clean interface to look up artists, read their biogr
 ---
 
 ## Screenshots
-![Application Screenshot](/Music%20App/images/app.png)
+<img width="1892" height="908" alt="Screenshot 2026-11-17 045258" src="https://github.com/user-attachments/assets/f4edd14d-bb0b-4bd5-b24c-070d37590a55" />
+
 
 
 ---
