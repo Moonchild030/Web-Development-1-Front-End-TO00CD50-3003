@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artist Page</title>
+    <script type="module" src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Knewave&family=Risque&family=Spicy+Rice&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- TOP NAVIGATION -->
+    <header class="navbar">
+      <h2 class="logo">Music Information APP</h2>
+
+      <section class="search">
+        <select id="artistList">
+          <optgroup label="Artists">
+            <option value="The Beatles">The Beatles</option>
+            <option value="Queen">Queen</option>
+            <option value="Pink Floyd">Pink Floyd</option>
+            <option value="Led Zeppelin">Led Zeppelin</option>
+            <option value="The Rolling Stones">The Rolling Stones</option>
+          </optgroup>
+        </select>
+
+        <div class="searchBox">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for an artist..."
+          />
+          <button id="searchButton">Search</button>
+        </div>
+      </section>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner">
+      <img src="images/catmusic.png" alt="Cat music" class="bannerimage"/>
+      <h1>Discover Your Favorite Artists</h1>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main style="display: none" class="container">
+      <!-- LEFT COLUMN: ARTIST INFORMATION -->
+      <aside class="artistInfo">
+        <div id="artistInfoContainer">
+          <div id="artistCard">
+            <img id="artistImage" src="" alt="Artist Image" />
+
+            <h2 id="artistName"></h2>
+
+            <div id="artistBio"></div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- RIGHT COLUMN: RESULTS AND MUSIC INFORMATION -->
+      <section class="content">
+        <!-- SEARCH RESULTS -->
+        <section class="searchResults">
+          <h2>Search Results</h2>
+
+          <div id="searchResultsContainer">
+            <div id="card">
+              <div id="name"></div>
+              <img id="image" src="" alt="Artist Image" />
+            </div>
+          </div>
+        </section>
+
+        <!-- ALBUM INFORMATION -->
+        <section class="albumInfo">
+          <h2>Albums</h2>
+
+          <div id="albumInfoContainer">
+            <div id="albumTitle"></div>
+            <div id="albumCard">
+              <div id="albumName"></div>
+              <img id="albumImage" src="" alt="Album Image" />
+              <div id="albumTracks"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TRACK INFORMATION -->
+        <section class="trackInfo">
+          <h2>Tracks</h2>
+
+          <div id="trackInfoContainer">
+            <div id="trackCard">
+              <div id="trackName"></div>
+              <img id="trackImage" src="" alt="Track Image" />
+              <div id="trackDetails"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
