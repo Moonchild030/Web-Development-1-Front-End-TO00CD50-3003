@@ -90,6 +90,12 @@ For users who want a quick, clean interface to look up artists, read their biogr
 
 - **Images / Illustrations:** https://pin.it/4eXhlDkpi -cat png
 
-- **AI tool used:** Gemini / ChatGPT 
+- **AI tool used:** Gemini / ChatGPT
 
-  - **How the tool was used:** to fix nesting yet again and also debugging 
+  - **How the tool was used:** to fix nesting yet again and also debugging
+  - Websites I used:
+  - 
+Stack Overflow (2019) Last.fm API returns same white star image for all artists. Available at: https://stackoverflow.com/questions/55978243/last-fm-api-returns-same-white-star-image-for-all-artists (Accessed: 15 November 2026).
+
+W3Schools (n.d.) W3Schools Online Web Tutorials. Available at: https://www.w3schools.com/ (Accessed: 14 November 2026).
+  
