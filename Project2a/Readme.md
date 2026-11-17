@@ -23,7 +23,7 @@ For users who want a quick, clean interface to look up artists, read their biogr
 ---
 
 ## Web links
-- **Published application:** [Add your GitHub Pages URL here]
+- **Published application:** https://moonchild030.github.io/Web-Development-1-Front-End-TO00CD50-3003/Project2a/Music%20App/
 - **GitHub repository:** https://github.com/Moonchild030/Web-Development-1-Front-End-TO00CD50-3003/tree/main/Project2a
 - **Project video presentation:** https://video.laurea.fi/media/Project+2a%3A+AJAX+Application+Using+a+REST+API/0_3fsu9mo6
   
