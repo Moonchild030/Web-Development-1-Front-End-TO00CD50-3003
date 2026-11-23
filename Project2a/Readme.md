@@ -24,6 +24,8 @@ For users who want a quick, clean interface to look up artists, read their biogr
 
 ## Web links
 - **Published application:** https://moonchild030.github.io/Web-Development-1-Front-End-TO00CD50-3003/Project2a/Music%20App/
+https://kaleidoscopic-belekoy-2df731.netlify.app
+
 - **GitHub repository:** https://github.com/Moonchild030/Web-Development-1-Front-End-TO00CD50-3003/tree/main/Project2a
 - **Project video presentation:** https://video.laurea.fi/media/Project+2a%3A+AJAX+Application+Using+a+REST+API/0_3fsu9mo6
   
@@ -83,8 +85,6 @@ For users who want a quick, clean interface to look up artists, read their biogr
 - **What remained unclear or what would I like to learn more about?**
   - To reduce how much information the API gives to me. 
 
-- **My self-assessed project grade:** `xx/10 points`
-
 ---
 
 ## Sources and acknowledgements
@@ -92,6 +92,14 @@ For users who want a quick, clean interface to look up artists, read their biogr
 
 - **Images / Illustrations:** https://pin.it/4eXhlDkpi -cat png
 
-- **AI tool used:** Gemini / ChatGPT 
+- **AI tool used:** Gemini / ChatGPT
 
-  - **How the tool was used:** to fix nesting yet again and also debugging 
+  - **How the tool was used:** to fix nesting yet again and also debugging
+  - Websites I used:
+  - 
+Stack Overflow (2019) Last.fm API returns same white star image for all artists. Available at: https://stackoverflow.com/questions/55978243/last-fm-api-returns-same-white-star-image-for-all-artists (Accessed: 15 November 2026).
+
+W3Schools (n.d.) W3Schools Online Web Tutorials. Available at: https://www.w3schools.com/ (Accessed: 14 November 2026).
+
+Mozilla (n.d.) Array.prototype.filter(). Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter (Accessed: 16 November 2026).
+  

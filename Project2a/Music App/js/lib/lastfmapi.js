@@ -39,6 +39,10 @@ async function apiRequest(method, params) {
     throw new Error(`Last.fm API error: ${data.message}`);
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4d1a89815178bc749259477ccb0efa5831d9db0e
   console.log(`API Request to ${method} successful. Response:`, data);
 
   return data;
